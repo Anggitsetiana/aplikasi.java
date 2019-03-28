@@ -1,5 +1,9 @@
-
-package Praktek5;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Prakek5;
 
 import java.awt.BorderLayout;
 import javax.swing.JButton;
@@ -9,7 +13,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Tri
+ * @author Anggit
  */
 public class Aplikasi {
     
@@ -20,7 +24,8 @@ public class Aplikasi {
         frame.setLayout(new BorderLayout());
         
         JLabel lblNama = new JLabel();
-        lblNama.setText("Tri");
+        lblNama.setText("Anggit Setiana"
+                        + " 4D/17090027");
         frame.add(lblNama, BorderLayout.WEST);
         
         JButton btnSimpan = new JButton("Simpan");
