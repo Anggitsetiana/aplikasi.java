@@ -13,7 +13,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Anggit
+ * @author nia
  */
 public class Aplikasi {
     
@@ -24,8 +24,8 @@ public class Aplikasi {
         frame.setLayout(new BorderLayout());
         
         JLabel lblNama = new JLabel();
-        lblNama.setText("Anggit Setiana"
-                        + " 4D/17090027");
+        lblNama.setText("Murni Kurniasari"
+                        + " 4D/17090013");
         frame.add(lblNama, BorderLayout.WEST);
         
         JButton btnSimpan = new JButton("Simpan");
